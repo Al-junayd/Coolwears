@@ -1,0 +1,73 @@
+        .carousel-caption {
+            line-height: 10px;
+            font-weight: 900;
+            position: absolute;
+            left: 10%;
+            top: 30%;
+            right: 70%;
+            justify-self: flex-start;
+            text-transform: uppercase;
+            line-height: 1.6;
+            color: #ffffffab;
+        }
+        
+        .carousel-item {
+            filter: grayscale(05%);
+        }
+        
+        .main_slider_content {
+            padding: 70px;
+        }
+        
+        .carousel-item {
+            max-height: fit-content;
+        }
+        
+        .row {
+            justify-content: space-around;
+        }
+        
+        .card-body {
+            justify-self: center;
+        }
+        
+        .card {
+            border: 1px solid white;
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .card-img-top:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+            opacity: 0.7;
+        }
+        
+        h1,
+        p {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        footer {
+            display: flex;
+            justify-content: space-around;
+            /* color: orchid; */
+            padding: 20px;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        
+        footer {
+            text-align: center;
+        }
+        
+        .foot {
+            text-align: center;
+        }
+        
+        @media (max-width: 860px) {
+            footer {
+                flex-direction: column;
+                flex-wrap: wrap;
+                text-align: start;
+            }
+        }
